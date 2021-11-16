@@ -1,6 +1,6 @@
-# Kodluyoruz-Front-End-CSS ODEV 1
+# Kodluyoruz-Front-End-CSS ODEV 1: "KEŞFEDİLMİŞ GEZEGENLER"
 
-Kodluyoruz Front-End "CSS" eğitiminde yaptığım ilk ödev
+Kodluyoruz Front-End "CSS" eğitiminde yaptığım ilk ödev: "KEŞFEDİLMİŞ GEZEGENLER"
 
 
 
