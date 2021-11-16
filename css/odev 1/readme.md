@@ -6,7 +6,7 @@ Kodluyoruz Front-End "CSS" eğitiminde yaptığım ilk ödev
 
 ## Installation
 
-Clone ederek index.html'i inceleyebilirsiniz
+Clone ederek index.html'i inceleyebilirsiniz.
 
 
 ```
