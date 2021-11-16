@@ -1,0 +1,75 @@
+
+body {
+    background-image:
+    url("../../../css/odev 1/images/planet1.jpg");
+    background-size:cover;
+}
+
+ #baslik-1 {
+    color:rgb(167, 72, 167);
+    font-size: 40px;
+    text-align: center;
+    background-color: thistle;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+
+}
+
+/* Burada baslik-1 kısmına id ekledim ve h1 yazmadan direkt #baslik-1 olarak devam ettim, ezber gidip h1 #baslik-1 yazmıştım sonradan hatamı anladım */
+
+/* Header start */
+
+.text-header {
+    color: rgb(138, 42, 122);
+    text-align: center;
+    list-style-position: inside;
+    letter-spacing: 2px;
+    font-size: 1.3em;
+    text-decoration:underline;
+}
+/* Header finish */
+
+
+/* Article Gezo Start  */
+
+.gezo {
+    color: darkmagenta;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#aciklama {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#aciklama2 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Article Gezo Finish  */
+
+/* Footer Start  */
+
+.viki {
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 15px;
+
+   
+}
+/* Footer Finish  */
