@@ -1,2 +1,2 @@
 # Kodluyoruz-Front-End-CSS
-Kodluyoruz Front-End "CSS" eğitiminde yaptığım ödevler
+Kodluyoruz (Patika) Front-End "CSS" eğitiminde yaptığım ödev ve projeler
