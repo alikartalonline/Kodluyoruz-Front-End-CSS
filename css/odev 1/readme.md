@@ -11,7 +11,7 @@ Clone ederek index.html'i inceleyebilirsiniz.
 
 ```
 
-git clone 
+git clone https://github.com/alikartalonline/Kodluyoruz-Front-End-CSS.git
 
 ```
 
