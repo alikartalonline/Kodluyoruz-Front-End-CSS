@@ -1,4 +1,4 @@
-# Kodluyoruz-Front-End-CSS ODEV 1: "KEŞFEDİLMİŞ GEZEGENLER"
+# Kodluyoruz-Front-End-CSS ODEV 2: "1998 GOOGLE ANA SAYFASI"
 
 Kodluyoruz Front-End "CSS" eğitiminde yaptığım ikinci ödev: "1998 GOOGLE ANA SAYFASI"
 
