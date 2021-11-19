@@ -37,33 +37,38 @@ label {
 
 } 
 
-/* input,
-label {
-    height: 15px;
-    width: 330px;
-    margin-left: 700px;
-    margin-right: 650px;
-    margin-bottom: -20px;
-} */
+/* input label ile "search" yazımı yazıp altına arama kutusu oluşturdum ve boyutlarını ayarladım aynı zamanda da ortalamaya çalıştım */
+
+/* Not: Ayrıca "Google Search" ve "I'm feeling Lucky" butonlarına da gerçekten arama linklerini "a href" ile ekledim  */
 
 .kutu1 {
     height: 20px;
-    width: 120px;
-margin: auto;
-    /* margin: auto; */
+    width: 75%;
+    /* margin-right: 30%; */
+    padding-left: auto;
+    padding-right: auto;
+    margin: 0px 0px 0px 735px;
+    
+    /* kutu1 clası verdiğim "search kutusu" için margin koyarak birinci kutuyu en sağa kadar getirdim ve padding-left ve right ile de kutu içindeki yazıyı tam ortaladım ve height-width ile de kutu boyutlarını ayarladım */
+
 
 }
 
 .kutu2 {
     height: 20px;
-    width: 120px;
-    margin-right: 30%;
-    /* margin: auto; */
+    width: 75%;
+    padding-left: auto;
+    padding-right: auto;
+
 }
+
+/* height: 20px ile kutunun yüksekliğini ayarladım. Width ile de kutunun genişliğini ayarladım. padding-left ile de kutunun içindeki yazıyı sol tarafa ayarladım. */
+
 
 
 .container {
- width: 7.3%;
+width: 9%;
     float: left;
 }
 
+/* container classı içinde width: %9 ve float:left vererek  "search ve lucky" kutularını yan yana koymuş oldum. */
