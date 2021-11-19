@@ -82,6 +82,29 @@ width: 9%;
     text-align: center;
 }
 
+/* birincikutu adlı class eklediğim bir div oluşturdum. Toplam 3 adet kutu olduğu için 3 adet class oluşturdum, aşağıda gördüğünüz üzere. Ve sonra width ve height ile yükseklik ve genişlik ayarladım. Background colorlarını ayarladım. Kutular yanyana gelmesi için float: left kodunu yazdım. Ve daha sonra aralarındaki boşluklar için margin'i kullandım. Ve arkasından kutuların içine table ekledim ve table içinde yazanları center ile ortaladım. */
+
+
+.ikincikutu {
+    width: 600px;
+    height: 80px;
+    background-color:#7EE5DA ;
+    float: left;
+    margin-top: 2px;
+    margin-right: 2px;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+/* birincikutu adlı class notunda eklediklerimi birebir burada da ve üçüncükutuda da yaptım */
+
+
+.tiklamarengi:hover {
+    color: red;
+}
+
+/* tiklamarengi adlı bir class ekledim, butonu olan linklere. Ve arkasından hover kodunu ekledim ve bu sayede linke geldiğinize zaman link rengi kırmızıya dönüyor. Gereksiz gibi gözükse de estetik oldu bence hem de öğrendiklerimi pratik etmek açısındna yararlı oldu */
+
 .birincikutuyazi {
     text-decoration: underline;
     table-layout: auto;
