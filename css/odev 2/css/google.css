@@ -19,9 +19,6 @@ margin-right: auto;
 
 /* Article'e grikutu class'ını vererek google altında gri bir arama kutusu oluşturdum ve ortaladım. Bunun için margin'den yararlandım */
 
-/* .aramayazisi {
-    text-align: center;
-} */
 
 .deneme {
     padding-left: 4%;
@@ -72,3 +69,67 @@ width: 9%;
 }
 
 /* container classı içinde width: %9 ve float:left vererek  "search ve lucky" kutularını yan yana koymuş oldum. */
+
+
+
+.birincikutu {
+    width: 600px;
+    height: 80px;
+    background-color:#7EE5DA ;
+    float: left;
+    margin-top: 2px;
+    margin-right: 2px;
+    text-align: center;
+}
+
+.birincikutuyazi {
+    text-decoration: underline;
+    table-layout: auto;
+    width: 100%;
+}
+
+
+
+.ikincikutu {
+    width: 370px;
+    height: 80px;
+    background-color:#70CCC2 ;
+    float: left;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+.ucuncukutu {
+    width: 728px;
+    height: 80px;
+    background-color:#62B3AA;
+    float: left;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.uckututoplam {
+    height: 65px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* aşağıdaki 3 adet kutu için birer class açtım ve height ile yüksekliği ayarladım, width ile genişliklerini ayarladım, margin-top ile yukarıdaki kutu ile aralarına boşluk koydum, margin-left-right ile kendi aralarında boşluk koydum, background color ile arka plan renklerini değiştirdim, float:left ile de 3 adet kutuyu yan yana dizdim. */
+
+
+
+/* 
+.uckututoplam {
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+
+
+/* .grikutu {
+    background-color: rgb(238, 238, 238);
+    height: 65px;
+    margin-left: 100px;
+    margin-right: 100px;
+} */
