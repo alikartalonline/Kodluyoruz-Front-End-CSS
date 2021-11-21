@@ -76,9 +76,58 @@ border:thick double #32a1ce;
     width: 30px;    
     white-space: nowrap;
     display: inline-block;
-    display: inline-block;
+    outline: none;
+    /* vertical-align: middle; */
+    box-sizing: border-box;
 }
 
-.appbuton:hover {
-    color: red;
+.imza{
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    display: inline-block;
+    /* line-height: 28px; */
+    padding: 3px;
+    white-space: nowrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    border-radius: 2px;
+    /* border-radius ile sign-in kutusunun çizgilerini biraz yumuşattım  */
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
+
+.googlelogo {
+    padding-top: 109px;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.aramakutusu {
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 480px;
+    padding-top: 30px;
+    margin: 0;
+    /* list-style-position: inside; */
+    border-radius: 30px;
+    color: rgba(0,0,0,.87)
+    /* background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -37px;
+    font: 16px arial,sans-serif;
+    line-height: 34px;
+    height: 34px !important; */
+}
+
+
