@@ -1,0 +1,25 @@
+
+body {
+    font-family: arial,sans-serif;
+    margin-top: 20px;  
+}
+
+
+
+.ustbuton {
+display: inline-block;
+padding-left: 15px;
+color: #000;
+opacity: 0.75;
+font-size: 13px;
+}
+
+/* header bölümündeki butonların özelliklerini değiştirdim ustbuton adlı class içinde  */
+
+
+.ustbuton:hover {
+    color: red;
+}
+
+/* hover kodu ile butona geldiğinizde buton kırmızı renk yanar  */
+
