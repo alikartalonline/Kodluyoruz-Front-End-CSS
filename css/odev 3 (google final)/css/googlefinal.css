@@ -5,6 +5,7 @@ body {
 }
 
 
+/* header bölümündeki butonların özelliklerini değiştirdim ustbuton adlı class içinde  */
 
 .ustbuton {
 display: inline-block;
@@ -12,14 +13,72 @@ padding-left: 15px;
 color: #000;
 opacity: 0.75;
 font-size: 13px;
+text-decoration: none;
+float: left;
 }
 
-/* header bölümündeki butonların özelliklerini değiştirdim ustbuton adlı class içinde  */
+/* text-decoration none yaparak yazının altındaki çizgileri kaldırdım. Ama ben mous ile yazıya geldiğinde hem yazının rengi değişsin hem de altında "link" çizgisi eklensin istiyorum, bunun içinde .ustbuton:hover bölümünde gerekli kodları yazdım  */
+
 
 
 .ustbuton:hover {
     color: red;
+    text-decoration: underline;
 }
 
 /* hover kodu ile butona geldiğinizde buton kırmızı renk yanar  */
 
+.ustsagbuton:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* .alikartal:hover{
+    background-color: blue;
+}
+
+.alikartal {
+border:thick double #32a1ce;
+}
+
+.alikartal:active {
+    position: relative;
+    top: 5px;
+} */
+
+/* ödev de yazıldığı üzere resmimi ekledim ama "isteğe göre css kodlarını uygulayabilirsiniz" maddesinden yola çıkarak ismime hover arka plan çerçevesi ekledim, active ile de buton gibi üzerine tıkladığınızda hareket ediyor  */
+
+.ustsagbuton {
+    /* margin-left: 1500px; */
+    /* text-align: center; */
+    display: inline-block;
+    font-size: 13px;
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    /* opacity: 0.75; */
+    line-height: 24px;
+    outline: none;
+    vertical-align: middle;
+    cursor: pointer;
+    white-space: nowrap;
+    padding-left: 15px;
+}
+
+.deneme {
+    text-align: right;
+}
+
+.appbuton{
+    background-position: -132px -38px;
+    opacity: .55;
+    background-size: 528px 68px;
+    height: 30px;
+    width: 30px;    
+    white-space: nowrap;
+    display: inline-block;
+    display: inline-block;
+}
+
+.appbuton:hover {
+    color: red;
+}
