@@ -8,7 +8,7 @@ body {
 /* header bölümündeki butonların özelliklerini değiştirdim ustbuton adlı class içinde  */
 
 .ustbuton {
-display: inline-block;
+/* display: inline-block; */
 padding-left: 15px;
 color: #000;
 opacity: 0.75;
@@ -102,32 +102,58 @@ border:thick double #32a1ce;
 .googlelogo {
     padding-top: 109px;
     text-align: center;
-    list-style-position: inside;
 }
 
 .aramakutusu {
-    text-align: center;
-    padding-top: 50px;
-    padding-right: 480px;
-    padding-top: 30px;
-    margin: 0;
-    /* list-style-position: inside; */
-    border-radius: 30px;
-    color: rgba(0,0,0,.87)
-    /* background-color: transparent;
-    border: none;
-    margin: 0;
-    padding: 0;
-    color: rgba(0,0,0,.87);
-    word-wrap: break-word;
-    outline: none;
-    display: flex;
-    flex: 100%;
-    -webkit-tap-highlight-color: transparent;
-    margin-top: -37px;
+    outline: none; 
     font: 16px arial,sans-serif;
     line-height: 34px;
-    height: 34px !important; */
+    color: rgba(0,0,0,.87);
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: transparent;
+    margin: 0;
+    word-wrap: break-word;      
+    margin-top: 10px;
 }
 
+input {
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    border: solid 1px;
+    border-radius: 30px;
+    border-color: rgb(198, 198, 201);
+    width: 600px;
+}
 
+/* width 600px yaparak arama cubugunu uzattım ve bunu input parantezi içinde yazdım. Bu arada border solid ile kenar çizgileri incelttim, radius ile de keskin dikdörtgen çizgileri yumuşattım. */
+
+.cubuk {
+    text-align: center;
+} 
+
+input:hover{
+    -webkit-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.52); 
+    box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.52);
+
+}
+
+/* input'a hover kodu ekleyerek mous ile çubuga geldiğinizde gölge efekti ekledim */
+
+
+.mikrofon {
+    background: url(https://web.archive.org/web/20191130234759im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) 0 0 no-repeat;
+    height: 24px;
+    width: 24px;
+    background-size: 24px;
+    vertical-align: middle;
+}
