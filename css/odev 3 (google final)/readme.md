@@ -4,7 +4,7 @@
 Kodluyoruz Front-End "CSS" eğitiminde yaptığım üçüncü ödev: " ORJİNAL GOOGLE ANA SAYFASI" Tüm linkler ve butonlar çalışmaktadır.
 
 
-![Google Ana Sayfası](https://www.hizliresim.com/isknwtz)
+![Google Ana Sayfası](https://i.hizliresim.com/isknwtz.gif)
 
 
 
@@ -15,7 +15,7 @@ Clone ederek index.html'i inceleyebilirsiniz
 
 ```
 
-git clone https://github.com/alikartalonline/Kodluyoruz-Front-End.git
+git clone https://github.com/alikartalonline/Kodluyoruz-Front-End-CSS.git
 
 ```
 
