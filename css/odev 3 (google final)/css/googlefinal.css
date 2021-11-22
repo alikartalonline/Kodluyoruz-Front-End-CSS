@@ -33,7 +33,7 @@ float: left;
     text-decoration: underline;
 }
 
-/* .alikartal:hover{
+.alikartal:hover{
     background-color: blue;
 }
 
@@ -44,9 +44,17 @@ border:thick double #32a1ce;
 .alikartal:active {
     position: relative;
     top: 5px;
-} */
+}
 
-/* ödev de yazıldığı üzere resmimi ekledim ama "isteğe göre css kodlarını uygulayabilirsiniz" maddesinden yola çıkarak ismime hover arka plan çerçevesi ekledim, active ile de buton gibi üzerine tıkladığınızda hareket ediyor  */
+.alikartal{
+    border-radius: 30px;
+}
+
+.no{
+    text-decoration: none;
+}
+
+/* ödev de yazıldığı üzere resmimi ekledim ama "isteğe göre css kodlarını uygulayabilirsiniz" maddesinden yola çıkarak ismime hover arka plan çerçevesi ekledim, active ile de buton gibi üzerine tıkladığınızda github linkime gidiyor  */
 
 .ustsagbuton {
     /* margin-left: 1500px; */
@@ -104,18 +112,45 @@ border:thick double #32a1ce;
     text-align: center;
 }
 
-.aramakutusu {
-    outline: none; 
-    font: 16px arial,sans-serif;
-    line-height: 34px;
-    color: rgba(0,0,0,.87);
-    padding-top: 5px;
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color: transparent;
-    margin: 0;
-    word-wrap: break-word;      
-    margin-top: 10px;
+
+.searchbox{
+    margin: 0 auto;
+    width: 580px;
+    border-radius: 30px;
+    border: 1px solid;
+    border-color: rgb(198, 198, 201);
+}
+
+.searchbox:hover {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+  }
+
+.searchbox:focus-within {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline: none;
+  }
+
+.searchinput{
+    height: 40px;
+    border: none;
+    width: 500px;
+    font-size: 16px;
+    outline: none;
+}
+
+.voice{
+    height: 24px;
+    position: relative;
+    top: 5px;
+
+}
+
+.key{
+    height: 15px;
+    position: relative;
+    float: right;
+    margin-top: -30px;
+    margin-right: 50px;
 }
 
 input {
@@ -135,25 +170,13 @@ input {
     width: 600px;
 }
 
-/* width 600px yaparak arama cubugunu uzattım ve bunu input parantezi içinde yazdım. Bu arada border solid ile kenar çizgileri incelttim, radius ile de keskin dikdörtgen çizgileri yumuşattım. */
-
-.cubuk {
-    text-align: center;
-} 
-
-input:hover{
-    -webkit-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.52); 
-    box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.52);
-
-}
-
-/* input'a hover kodu ekleyerek mous ile çubuga geldiğinizde gölge efekti ekledim */
-
-
-.mikrofon {
-    background: url(https://web.archive.org/web/20191130234759im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) 0 0 no-repeat;
-    height: 24px;
+svg{
     width: 24px;
-    background-size: 24px;
-    vertical-align: middle;
-}
+    height: 24px;
+    fill: rgba(95, 99, 104);
+    float: left;
+    margin-top: 12px;
+    margin-left: 10px;
+  }
+
+
